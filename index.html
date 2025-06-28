@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Pedra, Papel ou Tesoura?</h1>
+        <p id="text">Escolha a sua jogada:</p>
+        <button onclick="jogar('pedra')" class="botao">Pedra</button>
+        <button onclick="jogar('papel')" class="botao">Papel</button>
+        <button onclick="jogar('tesoura')" class="botao">Tesoura</button>
+        <div id="Resultado" class="Resultado">...</div>
+    </div>
+
+    <div id="images">
+        <img src="/images/human.png" id="humanWon">
+        <img src="/images/machine.png" id="machineWon">
+    </div>
+
+    <script src = "pedra_papel_tesoura.js"></script>
+
+</body>
+</html>
